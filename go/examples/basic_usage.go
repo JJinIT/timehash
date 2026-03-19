@@ -13,7 +13,8 @@ func main() {
 	// Create Timehash instance
 	th := timehash.New()
 
-	fmt.Println("=== Timehash Basic Usage Example ===\n")
+	fmt.Println("=== Timehash Basic Usage Example ===")
+	fmt.Println()
 
 	// Example 1: Generate index terms for business operating hours
 	fmt.Println("Example 1: Business operating hours (11:40 AM - 9:00 PM)")
